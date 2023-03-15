@@ -1,10 +1,15 @@
 {
-    "name": "matthieu/cakephp-social-auth",
+    "name": "admad/cakephp-social-auth",
     "description": "A CakePHP plugin which allows you to authenticate using social providers like Facebook/Google/Twitter etc.",
     "type": "cakephp-plugin",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MatthieuWinalist/cakephp-social-auth"
+        }
+    ],
     "require": {
-        "cakephp/cakephp": "^3.5",
-        "socialconnect/auth": "^1.12"
+        "matthieu/social-auth-plugin": "dev-forcessl"
     },
     "require-dev": {
         "cakephp/chronos": "^1.1",

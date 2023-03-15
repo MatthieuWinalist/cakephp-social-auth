@@ -1,5 +1,5 @@
 {
-    "name": "admad/cakephp-social-auth",
+    "name": "matthieu/cakephp-social-auth",
     "description": "A CakePHP plugin which allows you to authenticate using social providers like Facebook/Google/Twitter etc.",
     "type": "cakephp-plugin",
     "require": {

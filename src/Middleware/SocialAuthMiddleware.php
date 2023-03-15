@@ -448,6 +448,7 @@ class SocialAuthMiddleware implements EventDispatcherInterface
             'plugin' => 'ADmad/SocialAuth',
             'controller' => 'Auth',
             'action' => 'callback',
+            '_ssl' => true
         ], true);
 
         $request->getSession()->start();
